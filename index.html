@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--font-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <!--custom css-->
+    <link rel="stylesheet" href="./public/css/main.css" />
+</head>
+
+<body>
+    <!--  header  -->
+    <header>
+        <div class="menu-toggler" id="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav" id="top-nav">
+            <ul class="nav-list">
+                <li><a href="/" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="landing-text">
+            <h1>Tho Bui</h1>
+            <h6>UI | UX Designer and Web Developer</h6>
+        </div>
+    </header>
+
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+                <img src="./public/images/profile.jpg" alt="anh personal" />
+            </div>
+            <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                <p style="line-height: 1.5;">
+                    I am Tho. I was born in Thai Binh, and my portfolio is a
+                    representation of all that I've learned and accomplished as a
+                    engineering student. Now, I am a Front-end Web Developer and I am
+                    working at FPT SOFTWARE company. I love programming, I hope to
+                    become the best front-end web developer. So, I'm trying everyday to
+                    make it happen.
+                </p>
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="https://www.facebook.com/tho.bui.5458" target="_blank" class="icon-link">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/kurama_05_/" class="icon-link" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/tho-bui-860754199/" target="_blank" class="icon-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--services-->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Skills</h1>
+                <h6>My main skills</h6>
+            </div>
+            <div class="my-skill">
+                <div class="skill" data-aos="fade-in" data-aos-delay="300">
+                    <div class="icon-container">
+                        <i class="fab fa-angular"></i>
+                    </div>
+                    <h1>Angular Framework</h1>
+                    <p>
+                        Angular is a TypeScript-based open source web application
+                        framework run by the Angular Group at Google and by a community of
+                        individuals and corporations. Angular is a complete rewrite from
+                        the same team.
+                    </p>
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="600">
+                    <div class="icon-container">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h1>Javascript Language</h1>
+                    <p>
+                        JavaScript is a scripting or programming language that allows you
+                        to implement complex features on your website - every time a
+                        website displays timely content updates, interactive maps, 2D
+                        animation / 3D graphics.
+                    </p>
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container">
+                        <i class="fas fa-file-code"></i>
+                    </div>
+                    <h1>Markup Language</h1>
+                    <p>
+                        HTML is a markup language designed to create web pages with pieces
+                        of information displayed on the World Wide Web. Together with CSS
+                        and JavaScript, HTML forms the technical foundation trio of the
+                        World Wide Web.
+                    </p>
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="1200">
+                    <div class="icon-container">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h1>Cascading Style Sheets</h1>
+                    <p>
+                        Css is a stylesheet language used to describe the presentation of
+                        a document written in HTML or XML (including various languages
+                        such as XML, SVG...). CSS describes how elements are displayed on
+                        the screen.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--portfolio-->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Portfolio</h1>
+                <h6>View some of my recent project</h6>
+            </div>
+            <div class="portfolio-item" data-aos="fade-right" data-aos-delay="300">
+                <div class="portfolio-img has-margin-right">
+                    <img src="./public/images/img-blog.jpg" alt="" />
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+                    <h6>Technologies Used: Angular 8, HTML5, CSS3, Bootstrap 4.</h6>
+                    <h1>Blog App</h1>
+                    <p>
+                        Blogspot is a social blogging site that allows users to view the
+                        articles, the comments, the profile of other author. Users can
+                        sign-up to create a new account or sign-in if you have one. When
+                        user is logged-in, user can post new article, comment, give
+                        favorite heart, edit or delete or un-favorite.
+                    </p>
+                    <a href="https://github.com/thor-bui/appSocial" target="_blank" class="cta">Source Code</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+                    <h6>Technologies Used: Angular 8, HTML5, CSS3.</h6>
+                    <h1>Recipe App</h1>
+                    <p>
+                        RecipeApp is to the rescue, helping you waste less food and eat
+                        fantastic meals. This website is simple and effective,.As you add
+                        available ingredients, RecipeApp suggests recipes, updating
+                        results for each new item you include.
+                    </p>
+                    <a href="https://github.com/thor-bui/appRecipe" target="_blank" class="cta">Source Code</a>
+                </div>
+                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+                    <img src="./public/images/recipe-app.jpg" alt="" />
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+                    <img src="./public/images/video4.jpg" alt="" />
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1000">
+                    <h6>
+                        Technologies Used: Angular 8, HTML5, CSS3, Angular Material.
+                    </h6>
+                    <h1>VideoPlay App</h1>
+                    <p>
+                        VideoPlay is a web app that allows users to search and watch video
+                        using Youtube API. Users can search for their favorite clips which
+                        can be sorted by title, relevance, view count, date. And the
+                        results of searching is paginated by users' options.
+                    </p>
+                    <a href="#" class="cta">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--experience-->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Work Experience</h1>
+                <h6>Past and current jobs</h6>
+            </div>
+            <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+                <ul>
+                    <li class="date" data-date="01/2020 - Present">
+                        <h1>FPT Software</h1>
+                        <p>
+                            I am a Front-end Web Developer and participate in a Japanese
+                            client's web app development project.
+                        </p>
+                    </li>
+                    <li class="date" data-date="08/2019 - 01/2020">
+                        <h1>Fresher Academy</h1>
+                        <p>
+                            During my time at Fresher Academy, I equipped myself with the
+                            basic knowledge of front-end programming.
+                        </p>
+                    </li>
+                    <li class="date" data-date="2015 - 2020">
+                        <h1>Posts and Telecommunications Institute of Technology</h1>
+                        <p>
+                            During this period I attended PTIT university, my major was
+                            telecommunications.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--contact-->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Let's work together</h6>
+            </div>
+            <form action="/" method="post" id="my-form" data-aos="fade-up" data-aos-delay="300">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name..." />
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Enter your email..." />
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter your phone number..." />
+                <label for="subject">Subject:</label>
+                <textarea name="subject" id="subject" cols="=10" rows="10"></textarea>
+                <input type="submit" value="Submit" id="submit" />
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <p>&copy; Tho Bui 2020</p>
+    </footer>
+
+    <!--script-->
+    <script src="./public/js/jquery.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="./public/js/main.js"></script>
+</body>
+
+</html>
